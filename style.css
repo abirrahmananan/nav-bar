@@ -1,0 +1,46 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: cornflowerblue;
+    height: 500vh;
+   
+   
+}
+nav{
+    position: fixed;
+
+}
+ul{
+    width: 100vw;
+    
+    list-style: none;
+    text-align: center;
+    font-size: 2rem;
+    padding: 25px;
+    background-color: rgb(2, 58, 39);
+    color: white;
+    border-radius: 30px;
+    box-shadow: 5px 5px 3px black;
+
+}
+li{
+    
+    display: inline-block;
+    padding: 50px;
+    font-weight: 900;
+    
+    
+
+}
+li:hover{
+    color: blueviolet;
+}
+ul:hover{
+    background-color: black;
+    color: aqua;
+    box-shadow: 5px 5px 3px rgb(255, 251, 251);
+   
+}
